@@ -3,10 +3,10 @@ Project created on 19th November 2019
 Readme created on 19th December 2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+This Python code analyses city bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Based on your choices it will answer different interesting questions about it by computing descriptive statistics. Analysis is performed via an interactive experience in the terminal to present these statistics.
 
 ### Files used
 Include the files used
