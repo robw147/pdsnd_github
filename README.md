@@ -33,6 +33,20 @@ This Python code analyses city bike share systems for three major cities in the 
 - counts of each gender (only available for NYC and Chicago)
 - earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
+## An Interactive Experience
+
+The main_project.py file is set up as a script that takes in raw input to create an interactive experience in the terminal that answers questions about the dataset. The experience is interactive because depending on a user's input, the answers to the questions on the previous page will change! There are four questions that will change the answers:
+
+1. Would you like to see data for Chicago, New York, or Washington?
+2. Would you like to filter the data by month, day, or not at all?
+3. (If they chose month) Which month - January, February, March, April, May, or June?
+4. (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
+
+The answers to the questions above will determine the city and timeframe on which you'll do data analysis. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit.
+
+## Pre-requisites
+Python 3.6
+See requirements.txt for required Python packages
 
 ### Files used
 main_project.py
