@@ -40,7 +40,7 @@ def get_filters():
 
     # Ask for user input to choose filter by month, day or no filter
     while filter_type not in ('month','day', 'none'):
-        filter_type = input("Would you like to analyse a specific month, day or the full period of data (type month, day or none): ").lower()
+        filter_type = input("Would you like to analyze a specific month, day or the full period of data (type month, day or none): ").lower()
     if filter_type == 'month':
         print("\n You have selected to see trends for a given month \n")
     elif filter_type == 'day':
